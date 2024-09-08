@@ -1,0 +1,56 @@
+Q1: In the von Neumann architecture, where are instructions stored? Where is data stored? How is
+this possible?
+
+Q2: What is a semaphor? How are they used? Why are they necessary and why is it important that they be implemented in
+hardware?
+
+Q3: Briefly explain the "Dining Philosophers problem. Once done, give two UNsuccomfod approoches to solving the
+problem, and explain why/how they fail to dve the problem?
+
+Q4: 3. Briefly explain the "Dining Philosophers problem. Once done, give two UNsuccomfod approoches to solving the 
+problem,and explain why/how they fail to dve the problem
+
+Q5: The Von Neumann Architecture is central to modern computers and OS design. What is it? What are it's key features 
+and how does it's design influence the need for Operating Systems?
+
+Q6: What is the concept of a process and how is it different from a program? Name at least two SPECIFIC reasons why 
+the concept of a process is critical to the successful completion of the Op erating Systems goal(s).
+(AKA, why are they useful.) Also, argue why the efficient implementation of processes is critical
+
+Q7: In terms of "levels of abstraction", what is the job of the Operating System?
+
+Q8: Draw below the finite state machine that shows the (basic) states of processes. Label each state.
+Draw the transitions between states as directional arrows. Also, give a brief definition for "context switching".
+
+Q9: Give details about the engineering design tradeoff surrounding how PCBs are implemented
+
+Q10: What is a thread? What is it's relationship to a process? Be specific. Especially detail how threads use memory,
+program counters, and stack counters. (Consider drawing a diagram)
+
+Q11: Explain what is meant by each of the following terms in the context of Operating Systems: Race Condition,
+Mutual Exclusion, and Critical Section.Give both a definition and, where appropriate, state the relationship(s)
+between these terms. Be specific.
+
+Q13: Look at the two processes below (P1 and P2), that are scheduled to run concurrently. State at least two issues with the approach taken to provide for safely concurrently running these two?
+
+Process P1
+
+while(1){
+
+  cl 1
+  will wait=1
+  while(c2 && (will_wait 1) {nop:} 
+  CS
+  c1 = 0
+}
+Process P2 
+
+while(1){
+  c2=1
+  will_wait = 2
+  while(c1 && (will_wait == 2){nop;}
+  CS
+  C2 = 0
+}
+
+Q14: State and explain (write code or psuedocode to assist you) how to create a new process in a unix/linux environment
