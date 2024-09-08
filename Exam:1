@@ -1,0 +1,35 @@
+Q1: Explain the engineering design trade-offs surrounding dynamic load control. Begin by describing what load control 
+is and then explain the nature of the balancing act the OS needs to perform. In other words, explain the design 
+tradeoff surrounding modulating the number of concurrent processes?
+
+Q2: Explain the engineering design trade-off present between static address translation, and dynamic address translation.
+Begin by giving a definition for both and then list in detail the benefits and drawbacks of each.
+
+Q3: In the figure below you will find a resource allocation graph for a system in a particular state of resource 
+allocations and requests. Use static deadlock detection to determine if the system is in a deadlocked state
+
+Q4: There are 2048 addressable locations in a particular logical address space. The address space is divided into pages of 32 addresses each. How many bits k are 
+required to address all the locations in a page? How many bits n are required to address all of the pages Show your work.
+
+Q5: What are the four conditions required for experiencing resource deadlock. List each, and give a brief
+description of each. Then, also list at least one static deadlock prevention technique which addresses each 
+one of the four (1 technique per condition).
+
+Q6: We have previously seen the chart below. numenically. I have intentionally removed the labels from this chart. Label 
+the x and y axes. Also, label the region where thrashing occurs. What does the dotted line represent? What situation 
+is represented under the curve to the left of the line? What situation is represented under the curve to the right of 
+the line  ( Figure: rhis figure is in presentaion)
+![Alt text](https://slideplayer.com/slide/14833244/90/images/2/Thrashing+%28Cont.%29.jpg)
+
+Q7: The below table represents several entries in the physical frame numbers on the right) for a certe page table logical alate the logical addre 01001010 to the appropriate physical address. Show your work
+
+Q8: Explain how "external fragmentation" emerges in memory management systems. Also give a solution for eliminating it
+
+Q9: The vectors and matrices below represent the current state of a system. E is "existing". A is "available", C is 
+currently acquired, and R is maximum remaining. Use the banker's algorithm to determine if the system is in a safe state. Show your work
+
+Q10: What is the translation lookaside buffer and why is it useful? What problem does it help solve? Be specific.
+
+Q11: Begin with the following Reference String: 3 0 2 1 4 5 0 1 0 3. For a paged memory comsusting of 4 frames, use the
+Least-Recently Used page replacement algorithm to show for tune 1 through 10 what pages are resident in each frame,
+and what the state of the queue is. Also, indicate when page faults occur
