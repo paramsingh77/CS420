@@ -31,7 +31,7 @@ Q11: Explain what is meant by each of the following terms in the context of Oper
 Mutual Exclusion, and Critical Section.Give both a definition and, where appropriate, state the relationship(s)
 between these terms. Be specific.
 
-Q13: Look at the two processes below (P1 and P2), that are scheduled to run concurrently. State at least two issues with the approach taken to provide for safely concurrently running these two?
+Q12: Look at the two processes below (P1 and P2), that are scheduled to run concurrently. State at least two issues with the approach taken to provide for safely concurrently running these two?
 
 Process P1
 
@@ -53,4 +53,4 @@ while(1){
   C2 = 0
 }
 
-Q14: State and explain (write code or psuedocode to assist you) how to create a new process in a unix/linux environment
+Q13: State and explain (write code or psuedocode to assist you) how to create a new process in a unix/linux environment
