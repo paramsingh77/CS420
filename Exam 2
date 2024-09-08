@@ -1,6 +1,6 @@
 Q1: Explain the engineering design trade-offs surrounding dynamic load control. Begin by describing what load control 
 is and then explain the nature of the balancing act the OS needs to perform. In other words, explain the design 
-tradeoff surrounding modulating the number of concurrent processes?
+tradeoff surrounding modulating the number of concurrent processes ?
 
 Q2: Explain the engineering design trade-off present between static address translation, and dynamic address translation.
 Begin by giving a definition for both and then list in detail the benefits and drawbacks of each.
